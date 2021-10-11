@@ -58,12 +58,12 @@
    <Watchpoint expression="sizeof(data)" name="sizeof(data)" radix="-1" linenumber="332" filename="../../../main.c"/>
    <Watchpoint expression="m_length" name="m_length" radix="16" linenumber="0" filename="../ses"/>
    <Watchpoint expression="m_rx_buf" name="m_rx_buf" radix="-1" linenumber="0" filename="../ses"/>
-   <Watchpoint expression="String" name="String" radix="-1" linenumber="0" filename=""/>
-   <Watchpoint expression="data[17]" name="data[17]" radix="-1" linenumber="0" filename=""/>
-   <Watchpoint expression="data" name="data" radix="-1" linenumber="0" filename=""/>
-   <Watchpoint expression="TempPointer->data" name="TempPointer->data" radix="-1" linenumber="0" filename=""/>
-   <Watchpoint expression="bottomStackPointer" name="bottomStackPointer" radix="-1" linenumber="0" filename=""/>
-   <Watchpoint expression="topStackPointer" name="topStackPointer" radix="-1" linenumber="0" filename=""/>
+   <Watchpoint expression="String" name="String" radix="-1" linenumber="0" filename="../ses"/>
+   <Watchpoint expression="data[17]" name="data[17]" radix="-1" linenumber="0" filename="../ses"/>
+   <Watchpoint expression="data" name="data" radix="-1" linenumber="0" filename="../ses"/>
+   <Watchpoint expression="TempPointer->data" name="TempPointer->data" radix="-1" linenumber="0" filename="../ses"/>
+   <Watchpoint expression="bottomStackPointer" name="bottomStackPointer" radix="-1" linenumber="0" filename="../ses"/>
+   <Watchpoint expression="topStackPointer" name="topStackPointer" radix="-1" linenumber="0" filename="../ses"/>
   </Watches>
  </Watch1>
  <Watch2>
@@ -76,7 +76,7 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="429" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="419" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="87" y="85" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="73" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="144" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../../modules/nrfx/drivers/include/nrfx_spis.h" selected="0" top="131" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="134" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../../modules/nrfx/drivers/src/nrfx_spis.c" selected="0" top="123" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="71" useTextEdit="1" openedFrom="/home/chris/Desktop/nRF5_SDK_17.0.2/modules/nrfx/drivers/src/nrfx_spis.c" useBinaryEdit="0" left="0" path="../../../../../../../../modules/nrfx/drivers/nrfx_common.h" selected="0" top="58" codecName="Default"/>
@@ -87,18 +87,15 @@
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="10" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../../modules/nrfx/nrfx.h" selected="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="212" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../../modules/nrfx/drivers/include/nrfx_spi.h" selected="0" top="192" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="70" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="SPI_STACK.h" selected="0" top="58" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="64" useTextEdit="1" openedFrom="/home/chris/Desktop/nRF5_SDK_17.0.2/examples/proprietary_rf/gzll/gzll_ack_payload/host/main.c" useBinaryEdit="0" left="0" path="../../../../../../../../components/libraries/CRS/SPI_STACK.c" selected="0" top="54" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="64" useTextEdit="1" openedFrom="/home/chris/Desktop/nRF5_SDK_17.0.2/examples/proprietary_rf/gzll/gzll_ack_payload/host/main.c" useBinaryEdit="0" left="0" path="../../../../../../../../components/libraries/CRS/SPI_STACK.c" selected="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="343" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../../modules/nrfx/drivers/src/nrfx_uart.c" selected="0" top="343" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="48" useTextEdit="1" openedFrom="/home/chris/Desktop/nRF5_SDK_17.0.2/examples/proprietary_rf/gzll/gzll_ack_payload/host/main.c" useBinaryEdit="0" left="0" path="../../../../../../../../../../arm_segger_embedded_studio_v534a_linux_x64_nordic/include/stddef.h" selected="0" top="79" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="65" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../../modules/nrfx/hal/nrf_spis.h" selected="0" top="101" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../../modules/nrfx/soc/nrfx_atomic.c" selected="0" top="66" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="66" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../../components/libraries/timer/drv_rtc.c" selected="0" top="48" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="81" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../../components/libraries/memobj/nrf_memobj.c" selected="0" top="63" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="338" useTextEdit="1" openedFrom="/home/chris/Desktop/nRF5_SDK_17.0.2/examples/proprietary_rf/gzll/gzll_ack_payload/host/main.c" useBinaryEdit="0" left="0" path="../../../../../../../../components/libraries/button/app_button.c" selected="0" top="323" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="216" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../../external/segger_rtt/SEGGER_RTT_Syscalls_SES.c" selected="0" top="195" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="78" useTextEdit="1" openedFrom="/home/chris/Desktop/nRF5_SDK_17.0.2/examples/proprietary_rf/gzll/gzll_ack_payload/host/main.c" useBinaryEdit="0" left="0" path="../../../../../../../../components/libraries/sortlist/nrf_sortlist.c" selected="0" top="64" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="106" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../../components/libraries/util/app_error_weak.c" selected="0" top="96" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="287" useTextEdit="1" openedFrom="/home/chris/Desktop/nRF5_SDK_17.0.2/modules/nrfx/drivers/src/nrfx_spis.c" useBinaryEdit="0" left="0" path="../../../../../../../../integration/nrfx/nrfx_glue.h" selected="0" top="273" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="gzll_ack_payload_host_pca10056" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="../../../../flywheel/nrf_flywheel.c&#xa;&#xa;../../../../notification_manager/nrf_notification_manager.c&#xa;&#xa;../../../nrf_gzll.c&#xa;" fileDialogInitialDirectory="/home/chris/Desktop/nRF5_SDK_17.0.2/components/libraries/CRS" debugSearchPath="" autoConnectCapabilities="3711"/>
+ <ARMCrossStudioWindow activeProject="gzll_ack_payload_host_pca10056" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="../../../../flywheel/nrf_flywheel.c&#xa;&#xa;../../../../notification_manager/nrf_notification_manager.c&#xa;&#xa;../../../nrf_gzll.c&#xa;" fileDialogInitialDirectory="/home/chris/Desktop/nRF5_SDK_17.0.2/components/libraries/CRS" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>

@@ -54,18 +54,18 @@
  <Watch1>
   <Watches active="1" update="Never">
    <Watchpoint expression="1 &lt;&lt; 1" name="1 &lt;&lt; 1" radix="2" linenumber="0" filename="../ses"/>
-   <Watchpoint expression="val" name="val" radix="2" linenumber="285" filename="../../../main.c"/>
-   <Watchpoint expression="i" name="i" radix="2" linenumber="287" filename="../../../main.c"/>
-   <Watchpoint expression="LEDS_NUMBER" name="LEDS_NUMBER" radix="2" linenumber="289" filename="../../../main.c"/>
+   <Watchpoint expression="val" name="val" radix="2" linenumber="197" filename="../../../main.c"/>
+   <Watchpoint expression="i" name="i" radix="2" linenumber="199" filename="../../../main.c"/>
+   <Watchpoint expression="LEDS_NUMBER" name="LEDS_NUMBER" radix="2" linenumber="201" filename="../../../main.c"/>
    <Watchpoint expression="1 &lt;&lt; 2" name="1 &lt;&lt; 2" radix="2" linenumber="0" filename="../ses"/>
    <Watchpoint expression="1 &lt;&lt; 0" name="1 &lt;&lt; 0" radix="-1" linenumber="0" filename="../ses"/>
    <Watchpoint expression="val &amp; 1" name="val &amp; 1" radix="-1" linenumber="0" filename="../ses"/>
    <Watchpoint expression="val &amp; 2" name="val &amp; 2" radix="2" linenumber="0" filename="../ses"/>
    <Watchpoint expression="led_idx" name="led_idx" radix="-1" linenumber="0" filename="../ses"/>
-   <Watchpoint expression="m_ack_payload" name="m_ack_payload" radix="-1" linenumber="685" filename="../../../main.c"/>
-   <Watchpoint expression="new_data_payload" name="new_data_payload" radix="-1" linenumber="362" filename="../../../main.c"/>
-   <Watchpoint expression="m_data_payload" name="m_data_payload" radix="-1" linenumber="375" filename="../../../main.c"/>
-   <Watchpoint expression="strlen(new_data_payload)" name="strlen(new_data_payload)" radix="16" linenumber="373" filename="../../../main.c"/>
+   <Watchpoint expression="m_ack_payload" name="m_ack_payload" radix="-1" linenumber="468" filename="../../../main.c"/>
+   <Watchpoint expression="new_data_payload" name="new_data_payload" radix="-1" linenumber="263" filename="../../../main.c"/>
+   <Watchpoint expression="m_data_payload" name="m_data_payload" radix="-1" linenumber="268" filename="../../../main.c"/>
+   <Watchpoint expression="strlen(new_data_payload)" name="strlen(new_data_payload)" radix="16" linenumber="266" filename="../../../main.c"/>
   </Watches>
  </Watch1>
  <Watch2>
@@ -78,13 +78,10 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="3" y="881" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="877" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="30" y="614" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="662" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="183" useTextEdit="1" openedFrom="/home/chris/Desktop/nRF5_SDK_17.0.2/examples/proprietary_rf/gzll/gzll_ack_payload/device/main.c" useBinaryEdit="0" left="0" path="../../../../../../../../components/libraries/Ds18b20/ds18b20.c" selected="0" top="168" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="918" useTextEdit="1" openedFrom="/home/chris/Desktop/nRF5_SDK_17.0.2/examples/proprietary_rf/gzll/gzll_ack_payload/device/main.c" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="902" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="41" useTextEdit="1" openedFrom="/home/chris/Desktop/nRF5_SDK_17.0.2/examples/proprietary_rf/gzll/gzll_ack_payload/device/main.c" useBinaryEdit="0" left="0" path="../../../../../../../../../../arm_segger_embedded_studio_v534a_linux_x64_nordic/include/stdint.h" selected="0" top="26" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="123" useTextEdit="1" openedFrom="/home/chris/Desktop/nRF5_SDK_17.0.2/examples/proprietary_rf/gzll/gzll_ack_payload/device/main.c" useBinaryEdit="0" left="0" path="../../../../../../../../components/proprietary_rf/gzll/nrf_gzll_constants.h" selected="0" top="106" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="58" useTextEdit="1" openedFrom="/home/chris/Desktop/nRF5_SDK_17.0.2/examples/proprietary_rf/gzll/gzll_ack_payload/device/main.c" useBinaryEdit="0" left="0" path="../../../../../../../../integration/nrfx/legacy/nrf_drv_gpiote.h" selected="0" top="42" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="209" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../../external/segger_rtt/SEGGER_RTT_Syscalls_SES.c" selected="0" top="194" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="gzll_ack_payload_device_pca10056" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="../../../../../common_headers/nrf_primask.h&#xa;&#xa;../../../../channel_manager/nrf_channel_manager.c&#xa;&#xa;../../../../fifo/nrf_fifo.c&#xa;&#xa;../../../../flywheel/nrf_flywheel.c&#xa;&#xa;../../../../impala/nrf_impala.c&#xa;&#xa;../../../../notification_manager/nrf_notification_manager.c&#xa;&#xa;../../../../packet_manager/nrf_packet_manager.c&#xa;&#xa;../../../../state_machine/nrf_state_machine.c&#xa;&#xa;../../../../test_framework/nrf_assert_internal.c&#xa;&#xa;../../../nrf_gzll.c&#xa;&#xa;c:\gzll\sdk\sdk\nrf5\components\toolchain\cmsis\include/cmsis_gcc.h&#xa;&#xa;c:\gzll\sdk\sdk\nrf5\components\toolchain\cmsis\include/core_cm4.h&#xa;" fileDialogInitialDirectory="/home/chris/Desktop/nRF5_SDK_17.0.2/examples/proprietary_rf/gzll/gzll_ack_payload/host" debugSearchPath="" autoConnectCapabilities="3711"/>
+ <ARMCrossStudioWindow activeProject="gzll_ack_payload_device_pca10056" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="../../../../../common_headers/nrf_primask.h&#xa;&#xa;../../../../channel_manager/nrf_channel_manager.c&#xa;&#xa;../../../../fifo/nrf_fifo.c&#xa;&#xa;../../../../flywheel/nrf_flywheel.c&#xa;&#xa;../../../../impala/nrf_impala.c&#xa;&#xa;../../../../notification_manager/nrf_notification_manager.c&#xa;&#xa;../../../../packet_manager/nrf_packet_manager.c&#xa;&#xa;../../../../state_machine/nrf_state_machine.c&#xa;&#xa;../../../../test_framework/nrf_assert_internal.c&#xa;&#xa;../../../nrf_gzll.c&#xa;&#xa;c:\gzll\sdk\sdk\nrf5\components\toolchain\cmsis\include/cmsis_gcc.h&#xa;&#xa;c:\gzll\sdk\sdk\nrf5\components\toolchain\cmsis\include/core_cm4.h&#xa;" fileDialogInitialDirectory="/home/chris/Desktop/nRF5_SDK_17.0.2/examples/proprietary_rf/gzll/gzll_ack_payload/host" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>
